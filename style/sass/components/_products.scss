@@ -75,7 +75,7 @@
 @include xs{
   .product{
     .text_pro {
-      align-items: end;
+      align-items: flex-end;
       .t_price{
         width: 73%;
         a {
