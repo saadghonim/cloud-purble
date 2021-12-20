@@ -4,20 +4,27 @@
   .brands{
     @include dots_;
     .owl-dots{
-      bottom: -35px;
+      bottom: -17px;
     }
     .item{
-      text-align: center;
-      .anc_brand{
-        display: inline-block;
-        width: 155;
-        height: 100;
-        img{
-          max-width: 100%;
-          filter: grayscale(100%);
-          transition: .5s;
-          &:hover{
-            filter: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .brand_div{
+        width: 130px;
+        height: 130px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        .anc_brand{
+          display: inline-block;
+          img{
+            max-width: 100%;
+            opacity: .5;
+            transition: .5s;
+            &:hover{
+              opacity: 1;
+            }
           }
         }
       }
