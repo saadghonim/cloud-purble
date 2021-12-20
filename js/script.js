@@ -5,11 +5,11 @@ $(document).ready(function(){
 $(".search_m").click(function(){
   $(".input_div_parant").slideToggle("500");
   $(".toggle_.fa-search").toggleClass("fa-times")
-  $(".moboverlay").fadeToggle("500");
+  // $(".moboverlay").fadeToggle("500");
 });
-$(".moboverlay").click(function(){
-  $(".search_m").trigger("click")
-})
+// $(".moboverlay").click(function(){
+//   $(".search_m").trigger("click")
+// })
 // ~~~~~~~~~~~~~~~~
 // ~~~~~~~~~~~~navbar
 $(".bars_").click(function(){
