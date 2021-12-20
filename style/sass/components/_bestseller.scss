@@ -1,0 +1,42 @@
+.bestseller_parant{
+  .bestseller{
+    margin-bottom: 20px;
+  @include owl-nav_;
+  .owl-nav{
+    button.owl-next{
+      top: 33%;
+      @include ar{
+        left: -65px;
+      }
+      @include en{
+        left: -65px;
+
+      }
+    }
+    button.owl-prev{
+      top: 33%;
+      @include ar{
+        right: -65px;
+      }
+      @include en{
+        right: -65px;
+
+      }
+    }
+  }
+}
+}
+
+@include xs{
+  .bestseller_parant{
+    .bestseller{
+      @include dots_;
+      .owl-dots{
+        bottom: 15px;
+      }
+      .owl-nav{
+        display: none;
+      }
+    }
+  }
+}

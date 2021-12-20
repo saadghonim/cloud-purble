@@ -1,0 +1,27 @@
+.brands_parant{
+  background-color:$color_5 ;
+  padding: 50px 0;
+  .brands{
+    @include dots_;
+    .owl-dots{
+      bottom: -35px;
+    }
+    .item{
+      text-align: center;
+      .anc_brand{
+        display: inline-block;
+        width: 155;
+        height: 100;
+        img{
+          max-width: 100%;
+          filter: grayscale(100%);
+          transition: .5s;
+          &:hover{
+            filter: none;
+          }
+        }
+      }
+    }
+  }
+}
+

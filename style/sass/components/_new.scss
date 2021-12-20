@@ -1,0 +1,37 @@
+.new_parant{
+  text-align: center;
+  margin-bottom: 90px;
+  .btn_new{
+    font-size: $font_s;
+    background-color: $color_1;
+    font-weight: 700;
+    width: 140px;
+    height: 40px;
+    color: $color_3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: auto;
+    transition: .5s;
+    &:hover{
+      transform: translateY(-5px);
+      background-image: linear-gradient(
+        0deg,
+        rgb(184, 226, 242) 0%,
+        rgb(226, 174, 249) 100%
+      );
+      color: $main_color;
+    }
+  }
+}
+
+@include xs{
+  .new_parant{
+    margin-bottom: 50px;
+    .new{
+      margin-bottom: 10px;
+      @include dots_;
+    }
+  }
+}
