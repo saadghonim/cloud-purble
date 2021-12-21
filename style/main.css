@@ -616,8 +616,12 @@ footer .ul_social a:hover {
   footer .f_div .f_btn[aria-expanded="true"]::after {
     content: "\f106";
   }
+  footer .newslatter {
+    padding-top: 40px;
+  }
   footer .newslatter .f_btn {
     font-size: 16px;
+    text-align: center;
   }
   footer .newslatter p {
     text-align: center;
@@ -660,7 +664,7 @@ footer .ul_social a:hover {
     margin-bottom: 10px;
   }
   .copyright .tasawk {
-    width: 50%;
+    width: 56%;
     margin: auto;
   }
 }
@@ -731,7 +735,7 @@ body {
 }
 
 .over_ {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -1332,7 +1336,7 @@ html[dir="ltr"] .slider_parant .slider .owl-nav button.owl-next {
     width: 73%;
   }
   .product .text_pro .t_price a {
-    font-size: 16px;
+    font-size: 14px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -1510,7 +1514,7 @@ html[dir="ltr"] .bestseller_parant .bestseller .owl-nav button.owl-prev {
 
 .brands_parant {
   background-color: #fafafa;
-  padding: 50px 0;
+  padding: 70px 0;
 }
 
 .brands_parant .brands .owl-dots {
@@ -1542,7 +1546,7 @@ html[dir="ltr"] .bestseller_parant .bestseller .owl-nav button.owl-prev {
 }
 
 .brands_parant .brands .owl-dots {
-  bottom: -17px;
+  bottom: -30px;
 }
 
 .brands_parant .brands .item {
@@ -1580,9 +1584,13 @@ html[dir="ltr"] .bestseller_parant .bestseller .owl-nav button.owl-prev {
   opacity: .5;
   -webkit-transition: .5s;
   transition: .5s;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .brands_parant .brands .item .brand_div .anc_brand img:hover {
+  -webkit-filter: none;
+          filter: none;
   opacity: 1;
 }
 

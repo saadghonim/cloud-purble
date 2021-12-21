@@ -83,7 +83,7 @@
       .t_price{
         width: 73%;
         a {
-          font-size: $font_s;
+          font-size: $font_s - 2;
           display: -webkit-box;
           -webkit-line-clamp: 2;
           -webkit-box-orient: vertical;

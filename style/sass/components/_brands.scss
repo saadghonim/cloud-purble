@@ -1,10 +1,10 @@
 .brands_parant{
   background-color:$color_5 ;
-  padding: 50px 0;
+  padding: 70px 0;
   .brands{
     @include dots_;
     .owl-dots{
-      bottom: -17px;
+      bottom: -30px;
     }
     .item{
       display: flex;
@@ -22,7 +22,9 @@
             max-width: 100%;
             opacity: .5;
             transition: .5s;
+            filter: grayscale(1);
             &:hover{
+              filter: none;
               opacity: 1;
             }
           }
