@@ -295,7 +295,6 @@ nav .ul_nav .li_hover .ul_drop .anc_menu {
   color: #212121;
   font-weight: 400;
   font-family: "Tajawal";
-  margin-bottom: 10px;
   -webkit-transition: .5s;
   transition: .5s;
   text-transform: capitalize;
@@ -907,7 +906,7 @@ body {
   color: #7f6cb6;
 }
 
-.ul_drop li:first-child {
+.ul_drop li {
   margin-bottom: 5px;
 }
 
